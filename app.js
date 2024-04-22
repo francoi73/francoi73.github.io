@@ -50,12 +50,12 @@ function efectoHabilidades() {
   var distancia_skills = window.innerHeight - habilidades.getBoundingClientRect().top;
   if (distancia_skills >= 300 && !entro) { 
       entro = true;
-      animateBar(html, 18);
-      animateBar(javascript, 17);
-      animateBar(wordpress, 11);
-      animateBar(photoshop, 15);
-      animateBar(php, 15);
-      animateBar(illustrator, 10);
+      animateBar(html, 19);
+      animateBar(javascript, 18);
+      animateBar(wordpress, 12);
+      animateBar(photoshop, 16);
+      animateBar(php, 16);
+      animateBar(illustrator, 11);
   }
 }
 
